@@ -1,0 +1,109 @@
+body{
+  background-color:  hsl(216, 12%, 8%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: overpass;
+}
+.section1{
+  padding: 12px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%) ;
+  justify-content: center;
+  width: 80%;
+  max-width: 180px;
+  border-radius: 10px;
+}
+
+.star-image-div{
+  background-color: hsl(227deg 9% 24%);;
+  width: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.star-image{
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding: 4px 4px;
+  object-fit: cover;
+}
+h1{
+  font-size: 17px;
+  color: white;
+  margin-bottom: 3.5px;
+}
+p{
+  font-weight: 300;
+  font-size: .75rem;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 12px;
+}
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  border: none;
+  padding: .75em 1em;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%) ;
+  background-color:hsl(227deg 9% 24%); 
+  cursor: pointer;
+  transition: background-color 0.20s , color 0.20s;
+}
+button:active{                  
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+#submit_Home{
+  margin-top: 13px;
+  text-decoration: none;
+  background-color: hsl(25, 97%, 53%);
+  color: whitesmoke;
+  font-size: .85rem;
+  padding: 5px 10px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  transition: background-color 0.20s , color 0.20s;
+}
+#submit_Home:active{
+  background-color: white;
+  color:hsl(25, 97%, 53%) ;
+}
+.second-section{
+  padding: 12px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%) ;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  max-width: 180px;
+  border-radius: 10px;
+  display: none;
+}
+.select{
+  color: hsl(25, 97%, 53%) ;
+  background-color: hsl(197, 20%, 18%);
+  padding: .35em .15em;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.message{
+  margin-top: .65em;
+  font-size: .65em;
+}
+.ThankYouImage{
+  width: 50%;
+}
+@media (max-width:400px){
+  p{
+    font-size: .75rem
+  }
+}
